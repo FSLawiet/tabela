@@ -1,0 +1,161 @@
+/*
+Estilização geral
+(Beba água, levante, alongue-se, vá dar uma volta, não se force camarada ;D )
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  /*font-weight: bold;*/
+}
+
+body {
+  padding: 5%;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+  margin: 0 auto;
+  width: 50%;
+}
+
+table caption {
+  caption-side: bottom;
+  font-size: 9px;
+  text-align: right;
+}
+
+table th {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #999999;
+  padding: 5px 0;
+}
+
+tr {
+  border: 1px solid #dddddd;
+}
+
+tr:nth-child(5),
+tr:nth-child(17) {
+  border-top: 2px solid #cccccc;
+}
+
+td {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  color: #666;
+  background: white;
+  width: 3%;
+  padding: 5px 0;
+}
+
+td:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+td.index {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #cccccc;
+  background: white;
+}
+
+td.index.libertadores {
+  color: #003366;
+}
+
+td.index.prelibertadores {
+  color: #1398be;
+}
+
+td.index.sulamericana {
+  color: #de9800;
+}
+
+td.index.rebaixado {
+  color: #c91b04;
+}
+
+td.name {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #666;
+  background: white;
+  width: 10%;
+}
+
+td.points {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+td.percent {
+  width: 5%;
+}
+
+td#legend {
+  font-size: 10px;
+  color: #8f8f8f;
+  font-weight: normal;
+  text-align: left;
+}
+
+td#legend ul#class {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  margin: 0 15px;
+}
+
+td#legend ul#class li {
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+
+td#legend ul#class li::before {
+  content: "\25A0";
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+}
+
+td#legend ul#class li#lblue::before {
+  color: #003366; /* Change the color */
+}
+td#legend ul#class li#ltorquoise::before {
+  color: #1398be; /* Change the color */
+}
+td#legend ul#class li#lorange::before {
+  color: #de9800; /* Change the color */
+}
+td#legend ul#class li#lred::before {
+  color: #c91b04; /* Change the color */
+}
+
+td#legend ul#data {
+  list-style: none;
+  display: flex;
+  align-items: left;
+  margin: 0 15px;
+}
+
+td#legend ul#data li {
+  margin-right: 0.8em;
+}
+
+td#legend ul#data li p {
+  font-size: 10px;
+  color: #555555;
+  font-weight: normal;
+  text-align: left;
+}
