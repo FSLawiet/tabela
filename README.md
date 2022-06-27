@@ -8,21 +8,22 @@
 
 Criar uma página HTML constituída de apenas uma tabela centralizada, com dados tabulados referentes à classificação do Campeonato ACME de 2022, no dia 31/12/2022, às 23:h59min. A formatação da tabela é mostrada na figura abaixo.
 
+![Exemplo](example.png)
+
 **Observações:** exige-se a aplicação das estilizações abaixo mencionadas com o uso exclusivo de uma folha de estilos CSS externa:
 
 - Todos os textos devem usar a fonte “Arial”;
 - Borda principal da tabela: espessura de 1px, de cor #DDDDDD;
 - Cores usadas para as posições de classificação: azul-marinho (#003366), azul-celeste (#1398BE), laranja (#DE9800), cinza (#CCCCCC) e vermelho (#C91B04);
 - Formatação de fontes (tamanho, cor, formato negrito/não negritado e alinhamento):
-  1. Posições de classificação: tamanho 18px, em formato negrito e alinhamento centralizado; as cores variam de posição para posição, conforme mencionado anteriormente;
-  2. Títulos das colunas: tamanho 13px, cor #999999, formato negrito e alinhamento centralizado;
-  3. Nomes dos times: tamanho 14px, cor #666666, formato negrito e alinhamento à esquerda;
-  4. Coluna referente à quantidade de pontos dos times: tamanho 14px, cor preta, formato negrito e alinhamento centralizado;
-  5. Demais colunas de classificação: tamanho 14px, cor #666666, formato não negritado e alinhamento centralizado;
-  6. Legendas para a área de classificação (“Taça Libertadores”, “Pré-Libertadores”, etc.): tamanho 10px, cor
-     #8F8F8F, formato não negritado e alinhamento à esquerda;
-  7. Legendas (siglas): tamanho 10px, cor #555555, formato negritado e alinhamento à esquerda;
-  8. Legendas (significados): tamanho 10px, cor #555555, formato não negritado e alinhamento à esquerda.
+  - Posições de classificação: tamanho 18px, em formato negrito e alinhamento centralizado; as cores variam de posição para posição, conforme mencionado anteriormente;
+  - Títulos das colunas: tamanho 13px, cor #999999, formato negrito e alinhamento centralizado;
+  - Nomes dos times: tamanho 14px, cor #666666, formato negrito e alinhamento à esquerda;
+  - Coluna referente à quantidade de pontos dos times: tamanho 14px, cor preta, formato negrito e alinhamento centralizado;
+  - Demais colunas de classificação: tamanho 14px, cor #666666, formato não negritado e alinhamento centralizado;
+  - Legendas para a área de classificação (“Taça Libertadores”, “Pré-Libertadores”, etc.): tamanho 10px, cor #8F8F8F, formato não negritado e alinhamento à esquerda;
+  - Legendas (siglas): tamanho 10px, cor #555555, formato negritado e alinhamento à esquerda;
+  - Legendas (significados): tamanho 10px, cor #555555, formato não negritado e alinhamento à esquerda.
 - As células dos valores exibidos nas colunas “P”, “V”, “D”, “GC” e “%” devem apresentar cor de fundo #F7F7F7;
 - Certifique-se de que todas as colunas de classificação (com exceção da coluna “%”) apresentem a mesma largura;
 - Uso de bordas com espessura de 1px, cor #DDDDDD, para separação entre as linhas; exceção às bordas de separação entre o 4°/5° time e 16°/17° time, que devem apresentar borda de 2px, cor #CCCCCC.
