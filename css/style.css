@@ -12,6 +12,12 @@ Estilização geral
 
 body {
   padding: 5%;
+  background: radial-gradient(
+    circle 979px at 10.4% 22.3%,
+    rgba(172, 177, 245, 0.3) 0%,
+    rgba(245, 244, 169, 0.3) 35%,
+    rgba(172, 245, 169, 0.3) 93.6%
+  );
 }
 
 h1,
@@ -40,6 +46,7 @@ table th {
   text-align: center;
   color: #999999;
   padding: 5px 0;
+  background: white;
 }
 
 tr {
